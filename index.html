@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="icon" href="https://img.etimg.com/thumb/msid-88542870,width-650,imgsize-72284,,resizemode-4,quality-100/universe.jpg">
+    <style>
+        body{
+            background-color: rgb(209, 209, 255);
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            font-family: 'Sofia';font-size: 50px;
+            position: absolute;
+            left: 650px;
+            color: #000000;
+        }
+        .sun{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 150px;
+            left: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+        }
+        .nabula{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 150px;
+            left: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+        }
+        .galexy{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 150px;
+            left: 600px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+
+        }
+        .james{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 150px;
+            left: 900px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+        }
+        .Constellations{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 150px;
+            left: 1200px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+           
+
+        }
+        .transit{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 150px;
+            left: 1500px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+        }
+        .yesr{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 150px;
+            left: 1750px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+        }
+        .time{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 250px;
+            left: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+        }
+        .gr{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 250px;
+            left: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+        }
+        .expo{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 250px;
+            left: 600px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+        }
+        .d{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 250px;
+            left: 900px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+        }
+        .big{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 250px;
+            left: 1200px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+        }
+        .satg{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 250px;
+            left: 1500px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+        }
+        .space{
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            position: absolute;
+            width: 161px;
+            height: 46px;
+            box-shadow: 0px 4px  104px rgba(0, 0, 0,0.25);
+            border-color: rgb(164, 200, 231);
+            top: 250px;
+            left: 1750px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+
+
+        }
+        @media only screen and (max-width: 900px){
+            div{
+                width:100%;
+
+            }
+            .sun{
+                position: absolute;
+                width: 100%;
+                top: 250px;
+                left: 0%;
+            }
+            .nabula{
+                position: absolute;
+                width: 100%;
+                top: 300px;
+                left: 0%;
+            }
+            .galexy{
+                position: absolute;
+                width: 100%;
+                top: 350px;
+                left: 0%;
+            }
+            .james{
+                position: absolute;
+                width: 100%;
+                top: 400px;
+                left: 0%;
+            }
+            .Constellations{
+                position: absolute;
+                width: 100%;
+                top: 450px;
+                left: 0%;
+            }
+            .transit{
+                position: absolute;
+                width: 100%;
+                top: 500px;
+                left: 0%;
+            }
+            .yesr{
+                position: absolute;
+                width: 100%;
+                top: 550px;
+                left: 0%;
+            }
+            .time{
+                position: absolute;
+                width: 100%;
+                top: 600px;
+                left: 0%;
+            }
+            .gr{
+                position: absolute;
+                width: 100%;
+                top: 650px;
+                left: 0%;
+            }
+            .expo{
+                position: absolute;
+                width: 100%;
+                top: 650px;
+                left: 0%;
+            }
+            .d{
+                position: absolute;
+                width: 100%;
+                top:700px;
+                left: 0%;
+            }
+            .big{
+                position: absolute;
+                width: 100%;
+                top: 750px;
+                left: 0%;
+            }
+            .satg{
+                position: absolute;
+                width: 100%;
+                top: 800px;
+                left: 0%;
+            }
+
+            h1{
+                width: 100%;
+                position: absolute;
+                left: 10px;
+            }
+            .space{
+                width: 100%;
+                position: absolute;
+                left: 0%;
+                top: 850px;
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>
+        Know About your Universe
+    </h1>
+    <div>
+
+        <a href="https://spaceplace.nasa.gov/all-about-the-sun/en/"><button class="sun">Sun</button></a>
+        <a href="https://spaceplace.nasa.gov/nebula/en/"><button class="nabula">Nabula</button></a>
+        <a href="https://spaceplace.nasa.gov/galaxy/en/"><button class="galexy">Galexy</button></a>
+        <a href="https://spaceplace.nasa.gov/james-webb-space-telescope/en/"><button class="james">James Web</button></a>
+        <a href="https://spaceplace.nasa.gov/constellations/en/"><button class="Constellations">Constellations</button></a>
+        <a href="https://spaceplace.nasa.gov/transits/en/"><button class="transit">Transit</button></a>
+        <a href="https://spaceplace.nasa.gov/light-year/en/"><button class="yesr">Light Year</button></a>
+        <a href="https://spaceplace.nasa.gov/time-travel/en/"><button class="time">Time Travel</button></a>
+        <a href="https://spaceplace.nasa.gov/gravitational-waves/en/"><button class="gr">Gravitational Wave</button></a>
+        <a href="https://spaceplace.nasa.gov/all-about-exoplanets/en/"><button class="expo">Exoplanet</button></a>
+        <a href="https://spaceplace.nasa.gov/dark-matter/en/"><button class="d">Dark Matter</button></a>
+        <a href="https://spaceplace.nasa.gov/big-bang/en/"><button class="big">Big Bang</button></a>
+        <a href="https://spaceplace.nasa.gov/satellite-galaxies/en/"><button class="satg">Satellite Galaxy</button></a>
+        <a href=""><button class="space">Space</button></a>
+
+
+    </div>
+       
+
+    
+</body>
+</html>
